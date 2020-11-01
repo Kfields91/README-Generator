@@ -52,7 +52,27 @@ inquirer.prompt([
             "Mozilla Public License 2.0",
             "the Unilicense"
           ]
+      },
+      {
+        type: "input",
+        name: "username",
+        message: "Enter Your Github Profile Link"
+      },
+      {
+        type: "checkbox",
+        message: "What's The Best Way To Reach You",
+        name: "ContactInfo",
+        choices: [
+          "email",
+          "github",
+        ]
+      },
+      {
+        type: "input",
+        name: "email",
+        message: "Enter Email Address"
       }
+      
   ]).then(function(data) {
     console.log(data);
     
@@ -71,11 +91,15 @@ inquirer.prompt([
   });
 // array of questions for user
 const questions = [
-    
+    {
+      "username": [],
+      "email address": [],
+    }
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
+
 }
 
 // function to initialize program
