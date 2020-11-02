@@ -80,13 +80,6 @@ function init() {
         }
         
     ]).then(function(data) {
-      console.log(data.username);
-      console.log(data.email); 
-      console.log(data.title); 
-      console.log(data.description); 
-      console.log(data.installation); 
-      console.log(data.usage); 
-      
       writeToFile("README.md", generateMarkdown({...data}));
 
   
