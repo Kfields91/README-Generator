@@ -6,12 +6,12 @@ function generateMarkdown(data) {
 [${data.license}](badge content)
 
 ## Table of Contents
-- Description
-- Installation
-- Usage
-- Contribution
-- Test Instructions
-- contact Information
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Test Instructions](#testinstructions)
+- [Contact Information](#contactinformation)
 
 ### Description
 ${data.description}
