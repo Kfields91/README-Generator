@@ -77,15 +77,6 @@ function init() {
               "Mozilla Public License 2.0",
               "the Unilicense"
             ]
-        },
-        {
-          type: "checkbox",
-          message: "What's The Best Way To Reach You",
-          name: "ContactInfo",
-          choices: [
-            "email",
-            "github",
-          ]
         }
         
     ]).then(function(data) {
@@ -97,9 +88,6 @@ function init() {
       console.log(data.usage); 
       
       writeToFile("README.md", generateMarkdown({...data}));
-      let username = data.username;
-      let email = data.email;
-      let title = data.title;
 
   
 });
