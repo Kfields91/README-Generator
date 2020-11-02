@@ -1,5 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+  // returns inquirer prompted data. Writing in markdown inside backticks and using data to personalize markdown page.
   return `# ${data.title}
 ----
 
@@ -34,5 +35,5 @@ ${data.email}
 
 `;
 }
-
+// function exportying generateMarkdown function
 module.exports = generateMarkdown;
