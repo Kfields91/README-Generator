@@ -63,25 +63,23 @@ function init() {
           name: "license",
           choices: [
               "none",
-              "Apache License 2.0",
-              "GNU Public License v3.0",
-              "MIT License",
-              "BSD 2-Clause `Simplified` License",
-              "BSD 3-Clause `New or `Revised` License",
-              "Boost Software License 1.0",
+              "Apache2.0",
+              "GNU Public v3.0",
+              "MIT",
+              "Boost Software 1.0",
               "Creative Commons Zero v1.0 Universal",
-              "Eclipse Public License 2.0",
-              "GNU Affero General Public License v3.0",
-              "GNU General Public License v2.0",
-              "GNU Lesser General Public License v2.1",
-              "Mozilla Public License 2.0",
+              "Eclipse Public 2.0",
+              "GNU Affero General Public v3.0",
+              "GNU General Public v2.0",
+              "GNU Lesser General Public v2.1",
+              "Mozilla Public 2.0",
               "the Unilicense"
             ]
         }
         
     ]).then(function(data) {
       writeToFile("README.md", generateMarkdown({...data}));
-
+      console.log(data.license);
   
 });
 }
