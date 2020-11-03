@@ -39,15 +39,17 @@ Save yourself time by using this README-Generator that will create a `README.md`
 
 Answer the prompt questions: _click enter to move to the next question._
 
-`Enter Your Github Username:`  
-`Enter Your Email Address`  
-`What's Your Projects Name?`  
-`Enter A Description For Your Project`  
-`Enter Your Projects Installation Instructions`  
-`Enter Usage Info`  
-`Enter Your Project Contribution Guidelines`  
-`Enter Test Instructions`  
-`Licensing Options: list of options`
+```
+Enter Your Github Username:
+Enter Your Email Address
+What's Your Projects Name?
+Enter A Description For Your Project
+Enter Your Projects Installation Instructions
+Enter Usage Info
+Enter Your Project Contribution Guidelines
+Enter Test Instructions
+Licensing Options: list of options
+```
 
 Once you have answered all the questions a markdown page will be generated for you!
 It will be named `README.md`.
