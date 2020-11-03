@@ -11,17 +11,17 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Generated-README-Example](#generated-readme-example)
 - [Contribution](#contribution)
 - [Test Instructions](#test-instructions)
 - [Licenses](#licenses)
 - [Contact Information](#contactin-formation)
-- [Generated-README-Example](#generated-readme-example)
 
 ## Description
 
-A `README.md` file is a the place where a project creator can communicate with future users and explain how their project works. Having a great `README.md` file can be crucial for any projects future success. However, Creating a README for coding projects can be time consuming. Save yourself time and use this README-Generator which will create a `README.md` file for you!
+A `README.md` file is the place where a project creator communicates with future users and explains how their project works. Having a great `README.md` file is crucial to your projects future success. If you've ever written a `README.md` file you know that creating one can be considerably time consuming!
 
-Simply follow the directions below for information on how to use.
+Save yourself time by using this README-Generator that will create a `README.md` file for you! Simply follow the directions below for information on how to use.
 
 ## Installation
 
@@ -33,10 +33,11 @@ Simply follow the directions below for information on how to use.
 - Again into Develop folder `cd Develop`
 - Download Inquirer package by entering `npm i`
 - enter `node index.js`
+- follow the prompt
 
 ## Usage
 
-Answer the prompt questions! and click enter to move to the next.
+Answer the prompt questions: _click enter to move to the next question._
 
 `Enter Your Github Username:`  
 `Enter Your Email Address`  
@@ -49,7 +50,13 @@ Answer the prompt questions! and click enter to move to the next.
 `Licensing Options: list of options`
 
 Once you have answered all the questions a markdown page will be generated for you!
-called `README.md`
+It will be named `README.md`.
+
+## Generated-README-Example:
+
+terminal picture from above was used to create the README below
+
+![exampleREADME](https://media.giphy.com/media/qmuwr2XrtbrWYxYjmz/giphy.gif)
 
 ## Contribution
 
@@ -57,7 +64,7 @@ If you would like to contribute to this project reach out to me. Contact Informa
 
 ## Test Instructions
 
-run a `npm test`
+run: `npm test`
 
 ## Licenses
 
@@ -72,9 +79,3 @@ Email Address: kelsea.fields@yahoo.com
 [Github Repo](https://github.com/Kfields91/README-Generator)
 
 [Github Live Page](https://kfields91.github.io/README-Generator/)
-
-## Generated README Example:
-
-command line picture from above was used to create the README below
-
-![exampleREADME](https://user-images.githubusercontent.com/68616301/97826071-72573000-1c75-11eb-8f41-48522d9a3b2a.PNG)
