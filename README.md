@@ -38,14 +38,14 @@ Simply follow the directions below for information on how to use.
 
 Answer the prompt questions! and click enter to move to the next.
 
-`Enter Your Github Username: `
-`Enter Your Email Address`
-`What's Your Projects Name?`
-`Enter A Description For Your Project`
-`Enter Your Projects Installation Instructions`
-`Enter Usage Info`
-`Enter Your Project Contribution Guidelines`
-`Enter Test Instructions`
+`Enter Your Github Username:`  
+`Enter Your Email Address`  
+`What's Your Projects Name?`  
+`Enter A Description For Your Project`  
+`Enter Your Projects Installation Instructions`  
+`Enter Usage Info`  
+`Enter Your Project Contribution Guidelines`  
+`Enter Test Instructions`  
 `Licensing Options: list of options`
 
 Once you have answered all the questions a markdown page will be generated for you!
