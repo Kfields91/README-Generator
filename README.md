@@ -66,7 +66,7 @@ If you would like to contribute to this project reach out to me. Contact Informa
 
 ## Test Instructions
 
-run: `npm test`
+run: `npm run test`
 
 ## Licenses
 
